@@ -1,0 +1,4 @@
+inspecting: trt_maxwell_scudnn_128x32_relu_interior_nn_v0
+num_static_instrs: 1035
+maxregs: 80(80)
+ERROR FAIL in kernel execution (the launch timed out and was terminated); 

@@ -1,0 +1,4 @@
+inspecting: trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_mobile_relu_tile148t_nt_v0
+num_static_instrs: 2001
+maxregs: 128(128)
+ERROR FAIL in kernel execution (the launch timed out and was terminated); 

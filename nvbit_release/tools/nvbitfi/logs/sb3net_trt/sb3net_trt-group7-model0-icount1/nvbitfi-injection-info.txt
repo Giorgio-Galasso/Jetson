@@ -1,0 +1,7 @@
+7
+0
+trt_maxwell_scudnn_winograd_128x128_ldg1_ldg4_mobile_relu_tile148t_nt_v0
+2
+14719456
+0.5086660677391878
+0.011948534083741413

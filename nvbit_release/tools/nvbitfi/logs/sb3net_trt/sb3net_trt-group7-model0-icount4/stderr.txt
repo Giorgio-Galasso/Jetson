@@ -1,0 +1,10 @@
+-------------------------------------------------------------------
+PyCUDA ERROR: The context stack was not empty upon module cleanup.
+-------------------------------------------------------------------
+A context was still active when the context stack was being
+cleaned up. At this point in our execution, CUDA may already
+have been deinitialized, so there is no way we can finish
+cleanly. The program will be aborted now.
+Use Context.pop() to avoid this problem.
+-------------------------------------------------------------------
+/home/g.galasso/g.galasso/nvbit_release/tools/nvbitfi/test-apps/sb3net_trt//run.sh: line 10: 25749 Aborted                 (core dumped) LD_PRELOAD=/home/g.galasso/g.galasso/nvbit_release/tools/nvbitfi/injector/injector.so python3 -u /home/g.galasso/g.galasso/nvbit_release/tools/nvbitfi/test-apps/sb3net_trt/trt_inference.py
